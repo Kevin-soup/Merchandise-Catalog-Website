@@ -1,6 +1,6 @@
 # Merchandise Catalog Website
 
-A clean, full-stack portfolio project consisting of a **Merchandise Catalog Website** (UI) and four microservices (**A, B, C, D**) behind a simple HTTP/JSON (REST) interface.
+A full-stack project consisting of a **Merchandise Catalog Website** (UI) and four microservices (**A, B, C, D**) behind a simple HTTP/JSON (REST) interface.
 
 ---
 

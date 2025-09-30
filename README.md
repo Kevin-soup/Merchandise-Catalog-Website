@@ -15,8 +15,6 @@ Used for
 - Displaying product images from the image service
 - (Admin-only) adding/updating/removing items via the catalog service
 
-> The dev server prints the local URL on start (see the UI subfolder’s README).
-
 ---
 
 ## Microservices

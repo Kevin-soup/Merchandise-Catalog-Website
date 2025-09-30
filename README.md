@@ -1,8 +1,9 @@
-# Merchandise Catalog Website
+# Merchandise Catalog Website — Portfolio Project
 
-A full-stack project consisting of a **Merchandise Catalog Website** (UI) and four microservices (**A, B, C, D**) behind a simple HTTP/JSON (REST) interface.
+A clean, full-stack portfolio project consisting of a **Merchandise Catalog Website** (UI) and four microservices (**A, B, C, D**) behind a simple HTTP/JSON (REST) interface.
 
-Deployment-ready: services use environment-based configuration and stateless REST endpoints and can be containerized and pushed to production with minimal changes.
+**Deployment-ready:** services use environment-based configuration and stateless REST endpoints and can be containerized and pushed to production with minimal changes.
+
 ---
 
 ## What’s Included
@@ -15,6 +16,8 @@ Used for
 - Keyword search and category filters
 - Displaying product images from the image service
 - (Admin-only) adding/updating/removing items via the catalog service
+
+> The dev server prints the local URL on start (see the UI subfolder’s README).
 
 ---
 
@@ -64,12 +67,12 @@ x-admin-token: authorized_admin
 
 1) Install & run each service
    npm install
-   npm run dev     
+   npm run dev     # or: npm start
 
-3) Run the UI
+2) Run the UI
    npm install
    npm run dev
-
+   # open the printed local URL
 
 ---
 

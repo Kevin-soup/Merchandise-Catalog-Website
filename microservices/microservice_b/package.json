@@ -1,0 +1,21 @@
+{
+  "name": "microservice-b-app",
+  "version": "1.0.0",
+  "description": "Microservice B: Admin authentication microservice.",
+  "main": "auth_controller.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node auth_controller.mjs",
+    "dev": "nodemon auth_controller.mjs"
+  },
+  "author": "Kevin Lin",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

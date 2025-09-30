@@ -1,0 +1,18 @@
+{
+  "name": "product-catalog-microservice",
+  "version": "1.0.0",
+  "description": "Microservice D: Manages products for the merchandise catalog.",
+  "type": "module",
+  "main": "catalog_controller.mjs",
+  "scripts": {
+    "start": "node catalog_controller.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.3.1"
+  }
+}

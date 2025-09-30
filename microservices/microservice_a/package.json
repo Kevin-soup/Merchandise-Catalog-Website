@@ -1,0 +1,26 @@
+{
+  "name": "announcement_ms",
+  "version": "1.0.0",
+  "description": "An announcement microservice for Catalog Website by Kevin Lin. Supports basic CRUD operations.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node src/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon src/index.js",
+    "test": "node src/test.js"
+  },
+  "type": "module",
+  "author": "Antonio Olaguer II",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "cross-env": "^10.0.0",
+    "eslint": "^9.32.0",
+    "globals": "^16.3.0"
+  }
+}
